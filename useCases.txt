@@ -1,0 +1,38 @@
+UseCase 1: Create table
+Moderator identified by Name -  creates the table and the duration times(1,2,3,5,10) and optional the round name.
+
+He has an ID to share to the next participants
+
+UseCase 2: Participants join the table
+Any user can join the table by entering the ID + name .
+
+Use Case 3: Moderator can boot from the table
+Moderator can boot from the table( permanently of just for this session ) any participant.
+If permanently, the participant with this name can not join anymore
+
+Use Case 4: Estimation saved
+Moderator enters a round name (?) . 
+Participants choose a value.
+When all participants have choosen the value, the cards are shown
+The cards with  high estimates and low estimates are highlighted
+Host press "create new estimation" and create new estimation
+The old estimation is saved in history
+
+
+Use Case 5: Round reset
+Moderator enters a round name (?) . 
+Participants choose a value.
+Host press "reset round " and a fresh new round is created
+The old one is not saved
+
+Use Case 6: Round save 
+After a round is saved, the users can see the history round names and picked value
+They can see also a total
+
+
+
+Use Case 7: Export
+Participants can choose if they download the results in CSV / EXCEL / Word /PDF format
+
+Use Case 8: Round delete
+The host can delete a round previously saved
